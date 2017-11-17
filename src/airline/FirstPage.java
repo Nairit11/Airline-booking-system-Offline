@@ -93,17 +93,17 @@ public class FirstPage extends javax.swing.JDialog {
         // TODO add your handling code here:
         LoginPage lp=new LoginPage();
         lp.setVisible(true);
+        dispose();
     }//GEN-LAST:event_jButton1MouseClicked
 
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
         // TODO add your handling code here:
         AdminPage ap=new AdminPage();
         ap.setVisible(true);
+        dispose();
     }//GEN-LAST:event_jButton2MouseClicked
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
