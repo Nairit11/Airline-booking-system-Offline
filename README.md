@@ -1,2 +1,2 @@
 # Airline-booking-system-Offline
-Offline Version of Airline Reservation System coded in Java and Swing for GUI.
+An Offline Version of Airline Reservation System coded in Java and Swing for GUI.
