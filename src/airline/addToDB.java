@@ -210,10 +210,12 @@ public class addToDB extends javax.swing.JFrame {
         {
                 Class.forName("java.sql.DriverManager");
                 Connection con=(Connection)
-                DriverManager.getConnection("jdbc:mysql://localhost:3306/airline","root","Nairit@6915");
+                DriverManager.getConnection("jdbc:mysql://localhost:3306/airline","root","greenarrow");
                 Statement stmt=(Statement)con.createStatement();
                 String query="INSERT INTO AIRLINE_TABLE VALUES('"+serial+"','"+date+"','"+source+"','"+dest+"','"+price+"','"+noe+"','"+nob+"','"+flight+"','"+time+"');";
                 stmt.executeUpdate(query);
+                JOptionPane.showMessageDialog(this, "Successfully Added to DB");
+                dispose();
             
         }
         catch(Exception e)
