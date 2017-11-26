@@ -1,3 +1,5 @@
+package airline;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -83,7 +85,7 @@ public class deleteFromDB extends javax.swing.JFrame {
         {
                 Class.forName("java.sql.DriverManager");
                 Connection con=(Connection)
-                DriverManager.getConnection("jdbc:mysql://localhost:1527/airline","root","Nairit@6915");
+                DriverManager.getConnection("jdbc:mysql://localhost:3306/airline","root","Nairit@6915");
                 Statement stmt=(Statement)con.createStatement();
                 String query="DELETE n1 FROM AIRLINE_TABLE n1 WHERE n1.Serial_No='"+serial+"'";
                 stmt.executeUpdate(query);
