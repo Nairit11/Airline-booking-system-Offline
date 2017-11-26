@@ -1,3 +1,5 @@
+package airline;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -31,12 +33,11 @@ public class PrintTicket1 extends JFrame
 		JLabel LBookedBy=new JLabel("<html><font color=\"#000000\">BookedBy &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: &nbsp;</font></html>");
 
 		JLabel LEmpty = new JLabel("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-		JLabel LGroup = new JLabel("<html><U><font color=\"#8FBC8F\">AirLine-Booking-Project Developed By Group 38. Group members:</font></U></html>");
-		JLabel LNairit=new JLabel("<html><I><font color=\"#8FBC8F\">Nairit Banerjee</font></I></html>");
-		JLabel LArrow=new JLabel("<html><I><font color=\"#8FBC8F\">Anirudh Singh Rathore</font></I></html>");
-		JLabel LNandan=new JLabel("<html><I><font color=\"#8FBC8F\">Nandan Raj</font></I></html>");
-		JLabel LYaver=new JLabel("<html><I><font color=\"#8FBC8F\">Yaver N/A</font></I></html>");
-		JLabel LShubh=new JLabel("<html><I><font color=\"#8FBC8F\">Subhrajit Mandal</font></I></html>");
+		JLabel LDemo = new JLabel("<html><U><font color=\"#8FBC8F\">AirLine-Project Developed By</font></U></html>");
+		JLabel LFranklin=new JLabel("<html><I><font color=\"#8FBC8F\">R Franklin Bourgia Singh</font></I></html>");
+		JLabel LRavi=new JLabel("<html><I><font color=\"#8FBC8F\">V.R Ravi Sankar</font></I></html>");
+		JLabel LMayuran=new JLabel("<html><I><font color=\"#8FBC8F\">B Mayuran</font></I></html>");
+		JLabel LSathya=new JLabel("<html><I><font color=\"#8FBC8F\">Sathyaraj</font></I></html>");
 
 
 		LTitle.setBounds(170,15,500,45);
